@@ -1,9 +1,0 @@
-# Force Railway to use npm instead of Bun
-[phases.setup]
-nixPkgs = ["nodejs_18", "npm"]
-
-[phases.install]
-cmds = ["npm install"]
-
-[start]
-cmd = "npm start"
